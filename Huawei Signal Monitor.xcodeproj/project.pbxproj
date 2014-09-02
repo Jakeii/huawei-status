@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235F21CC19B5F7BD00E25668 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F21CB19B5F7BD00E25668 /* Cocoa.framework */; };
+		235F21D619B5F7BD00E25668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235F21D419B5F7BD00E25668 /* InfoPlist.strings */; };
+		235F21D819B5F7BD00E25668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F21D719B5F7BD00E25668 /* main.m */; };
+		235F21DC19B5F7BD00E25668 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 235F21DA19B5F7BD00E25668 /* Credits.rtf */; };
+		235F21DF19B5F7BD00E25668 /* hsmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F21DE19B5F7BD00E25668 /* hsmAppDelegate.m */; };
+		235F21E219B5F7BD00E25668 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235F21E019B5F7BD00E25668 /* MainMenu.xib */; };
+		235F21E419B5F7BD00E25668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235F21E319B5F7BD00E25668 /* Images.xcassets */; };
+		235F21EB19B5F7BD00E25668 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F21EA19B5F7BD00E25668 /* XCTest.framework */; };
+		235F21EC19B5F7BD00E25668 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F21CB19B5F7BD00E25668 /* Cocoa.framework */; };
+		235F21F419B5F7BD00E25668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235F21F219B5F7BD00E25668 /* InfoPlist.strings */; };
+		235F21F619B5F7BD00E25668 /* Huawei_Signal_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F21F519B5F7BD00E25668 /* Huawei_Signal_MonitorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		235F21ED19B5F7BD00E25668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235F21C019B5F7BD00E25668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235F21C719B5F7BD00E25668;
+			remoteInfo = "Huawei Signal Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		235F21C819B5F7BD00E25668 /* Huawei Signal Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huawei Signal Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235F21CB19B5F7BD00E25668 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		235F21CE19B5F7BD00E25668 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		235F21CF19B5F7BD00E25668 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		235F21D019B5F7BD00E25668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		235F21D319B5F7BD00E25668 /* Huawei Signal Monitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Huawei Signal Monitor-Info.plist"; sourceTree = "<group>"; };
+		235F21D519B5F7BD00E25668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		235F21D719B5F7BD00E25668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		235F21D919B5F7BD00E25668 /* Huawei Signal Monitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huawei Signal Monitor-Prefix.pch"; sourceTree = "<group>"; };
+		235F21DB19B5F7BD00E25668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		235F21DD19B5F7BD00E25668 /* hsmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hsmAppDelegate.h; sourceTree = "<group>"; };
+		235F21DE19B5F7BD00E25668 /* hsmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hsmAppDelegate.m; sourceTree = "<group>"; };
+		235F21E119B5F7BD00E25668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		235F21E319B5F7BD00E25668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		235F21E919B5F7BD00E25668 /* Huawei Signal MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huawei Signal MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235F21EA19B5F7BD00E25668 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		235F21F119B5F7BD00E25668 /* Huawei Signal MonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Huawei Signal MonitorTests-Info.plist"; sourceTree = "<group>"; };
+		235F21F319B5F7BD00E25668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		235F21F519B5F7BD00E25668 /* Huawei_Signal_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Huawei_Signal_MonitorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235F21C519B5F7BD00E25668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21CC19B5F7BD00E25668 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235F21E619B5F7BD00E25668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21EC19B5F7BD00E25668 /* Cocoa.framework in Frameworks */,
+				235F21EB19B5F7BD00E25668 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235F21BF19B5F7BD00E25668 = {
+			isa = PBXGroup;
+			children = (
+				235F21D119B5F7BD00E25668 /* Huawei Signal Monitor */,
+				235F21EF19B5F7BD00E25668 /* Huawei Signal MonitorTests */,
+				235F21CA19B5F7BD00E25668 /* Frameworks */,
+				235F21C919B5F7BD00E25668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		235F21C919B5F7BD00E25668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235F21C819B5F7BD00E25668 /* Huawei Signal Monitor.app */,
+				235F21E919B5F7BD00E25668 /* Huawei Signal MonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235F21CA19B5F7BD00E25668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235F21CB19B5F7BD00E25668 /* Cocoa.framework */,
+				235F21EA19B5F7BD00E25668 /* XCTest.framework */,
+				235F21CD19B5F7BD00E25668 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		235F21CD19B5F7BD00E25668 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235F21CE19B5F7BD00E25668 /* AppKit.framework */,
+				235F21CF19B5F7BD00E25668 /* CoreData.framework */,
+				235F21D019B5F7BD00E25668 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		235F21D119B5F7BD00E25668 /* Huawei Signal Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				235F21DD19B5F7BD00E25668 /* hsmAppDelegate.h */,
+				235F21DE19B5F7BD00E25668 /* hsmAppDelegate.m */,
+				235F21E019B5F7BD00E25668 /* MainMenu.xib */,
+				235F21E319B5F7BD00E25668 /* Images.xcassets */,
+				235F21D219B5F7BD00E25668 /* Supporting Files */,
+			);
+			path = "Huawei Signal Monitor";
+			sourceTree = "<group>";
+		};
+		235F21D219B5F7BD00E25668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				235F21D319B5F7BD00E25668 /* Huawei Signal Monitor-Info.plist */,
+				235F21D419B5F7BD00E25668 /* InfoPlist.strings */,
+				235F21D719B5F7BD00E25668 /* main.m */,
+				235F21D919B5F7BD00E25668 /* Huawei Signal Monitor-Prefix.pch */,
+				235F21DA19B5F7BD00E25668 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		235F21EF19B5F7BD00E25668 /* Huawei Signal MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				235F21F519B5F7BD00E25668 /* Huawei_Signal_MonitorTests.m */,
+				235F21F019B5F7BD00E25668 /* Supporting Files */,
+			);
+			path = "Huawei Signal MonitorTests";
+			sourceTree = "<group>";
+		};
+		235F21F019B5F7BD00E25668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				235F21F119B5F7BD00E25668 /* Huawei Signal MonitorTests-Info.plist */,
+				235F21F219B5F7BD00E25668 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235F21C719B5F7BD00E25668 /* Huawei Signal Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235F21F919B5F7BD00E25668 /* Build configuration list for PBXNativeTarget "Huawei Signal Monitor" */;
+			buildPhases = (
+				235F21C419B5F7BD00E25668 /* Sources */,
+				235F21C519B5F7BD00E25668 /* Frameworks */,
+				235F21C619B5F7BD00E25668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huawei Signal Monitor";
+			productName = "Huawei Signal Monitor";
+			productReference = 235F21C819B5F7BD00E25668 /* Huawei Signal Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		235F21E819B5F7BD00E25668 /* Huawei Signal MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235F21FC19B5F7BD00E25668 /* Build configuration list for PBXNativeTarget "Huawei Signal MonitorTests" */;
+			buildPhases = (
+				235F21E519B5F7BD00E25668 /* Sources */,
+				235F21E619B5F7BD00E25668 /* Frameworks */,
+				235F21E719B5F7BD00E25668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235F21EE19B5F7BD00E25668 /* PBXTargetDependency */,
+			);
+			name = "Huawei Signal MonitorTests";
+			productName = "Huawei Signal MonitorTests";
+			productReference = 235F21E919B5F7BD00E25668 /* Huawei Signal MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		235F21C019B5F7BD00E25668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = hsm;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					235F21E819B5F7BD00E25668 = {
+						TestTargetID = 235F21C719B5F7BD00E25668;
+					};
+				};
+			};
+			buildConfigurationList = 235F21C319B5F7BD00E25668 /* Build configuration list for PBXProject "Huawei Signal Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 235F21BF19B5F7BD00E25668;
+			productRefGroup = 235F21C919B5F7BD00E25668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235F21C719B5F7BD00E25668 /* Huawei Signal Monitor */,
+				235F21E819B5F7BD00E25668 /* Huawei Signal MonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235F21C619B5F7BD00E25668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21D619B5F7BD00E25668 /* InfoPlist.strings in Resources */,
+				235F21E419B5F7BD00E25668 /* Images.xcassets in Resources */,
+				235F21DC19B5F7BD00E25668 /* Credits.rtf in Resources */,
+				235F21E219B5F7BD00E25668 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235F21E719B5F7BD00E25668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21F419B5F7BD00E25668 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		235F21C419B5F7BD00E25668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21D819B5F7BD00E25668 /* main.m in Sources */,
+				235F21DF19B5F7BD00E25668 /* hsmAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235F21E519B5F7BD00E25668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F21F619B5F7BD00E25668 /* Huawei_Signal_MonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235F21EE19B5F7BD00E25668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235F21C719B5F7BD00E25668 /* Huawei Signal Monitor */;
+			targetProxy = 235F21ED19B5F7BD00E25668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		235F21D419B5F7BD00E25668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235F21D519B5F7BD00E25668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		235F21DA19B5F7BD00E25668 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235F21DB19B5F7BD00E25668 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		235F21E019B5F7BD00E25668 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235F21E119B5F7BD00E25668 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		235F21F219B5F7BD00E25668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235F21F319B5F7BD00E25668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		235F21F719B5F7BD00E25668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		235F21F819B5F7BD00E25668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		235F21FA19B5F7BD00E25668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Huawei Signal Monitor/Huawei Signal Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Huawei Signal Monitor/Huawei Signal Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		235F21FB19B5F7BD00E25668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Huawei Signal Monitor/Huawei Signal Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Huawei Signal Monitor/Huawei Signal Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		235F21FD19B5F7BD00E25668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huawei Signal Monitor.app/Contents/MacOS/Huawei Signal Monitor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Huawei Signal Monitor/Huawei Signal Monitor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Huawei Signal MonitorTests/Huawei Signal MonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		235F21FE19B5F7BD00E25668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Huawei Signal Monitor.app/Contents/MacOS/Huawei Signal Monitor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Huawei Signal Monitor/Huawei Signal Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Huawei Signal MonitorTests/Huawei Signal MonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235F21C319B5F7BD00E25668 /* Build configuration list for PBXProject "Huawei Signal Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235F21F719B5F7BD00E25668 /* Debug */,
+				235F21F819B5F7BD00E25668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235F21F919B5F7BD00E25668 /* Build configuration list for PBXNativeTarget "Huawei Signal Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235F21FA19B5F7BD00E25668 /* Debug */,
+				235F21FB19B5F7BD00E25668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		235F21FC19B5F7BD00E25668 /* Build configuration list for PBXNativeTarget "Huawei Signal MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235F21FD19B5F7BD00E25668 /* Debug */,
+				235F21FE19B5F7BD00E25668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 235F21C019B5F7BD00E25668 /* Project object */;
+}
