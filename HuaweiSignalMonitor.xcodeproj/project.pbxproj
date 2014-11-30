@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2341DA501A2B31AE002E35D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2341DA4F1A2B31AE002E35D4 /* Images.xcassets */; };
+		2341DA521A2B32F0002E35D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2341DA511A2B32F0002E35D4 /* README.md */; };
 		235F21CC19B5F7BD00E25668 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F21CB19B5F7BD00E25668 /* Cocoa.framework */; };
 		235F21D619B5F7BD00E25668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235F21D419B5F7BD00E25668 /* InfoPlist.strings */; };
 		235F21D819B5F7BD00E25668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F21D719B5F7BD00E25668 /* main.m */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2341DA4F1A2B31AE002E35D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HuaweiSignalMonitor/Images.xcassets; sourceTree = "<group>"; };
+		2341DA511A2B32F0002E35D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		235F21C819B5F7BD00E25668 /* HuaweiSignalMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaweiSignalMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235F21CB19B5F7BD00E25668 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		235F21CE19B5F7BD00E25668 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 		235F21BF19B5F7BD00E25668 = {
 			isa = PBXGroup;
 			children = (
+				2341DA511A2B32F0002E35D4 /* README.md */,
 				2341DA4F1A2B31AE002E35D4 /* Images.xcassets */,
 				235F21D119B5F7BD00E25668 /* Huawei Signal Monitor */,
 				235F21EF19B5F7BD00E25668 /* Huawei Signal MonitorTests */,
@@ -260,6 +263,7 @@
 			files = (
 				2341DA501A2B31AE002E35D4 /* Images.xcassets in Resources */,
 				23BD270619B9B7CF001BD0FA /* Silver_3_Bars.png in Resources */,
+				2341DA521A2B32F0002E35D4 /* README.md in Resources */,
 				235F21D619B5F7BD00E25668 /* InfoPlist.strings in Resources */,
 				23BD270819B9B7CF001BD0FA /* Silver_5_Bars.png in Resources */,
 				23BD270719B9B7CF001BD0FA /* Silver_4_Bars.png in Resources */,
