@@ -8,8 +8,21 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface hsmAppDelegate : NSObject <NSApplicationDelegate>
+@interface hsmAppDelegate : NSObject <NSApplicationDelegate> {
+    //NSWindow *window;
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem * statusItem;
+    IBOutlet NSMenuItem *openPageMenuItem;
+    IBOutlet NSMenuItem *quitMenuItem;
+    IBOutlet NSMenuItem *signalStrengthMenuItem;
+    IBOutlet NSMenuItem *wanIpMenuItem;
+    IBOutlet NSMenuItem *usersMenuItem;
+    IBOutlet NSMenuItem *connectionTypeMenuItem;
+    NSMutableDictionary *connectionTypes;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+//@property (strong, nonatomic) NSStatusItem *statusItem;
+//@property (assign) IBOutlet NSWindow *window;
+
 
 @end

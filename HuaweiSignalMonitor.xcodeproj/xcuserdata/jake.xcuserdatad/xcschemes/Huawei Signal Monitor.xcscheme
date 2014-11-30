@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "235F21C719B5F7BD00E25668"
-               BuildableName = "Huawei Signal Monitor.app"
-               BlueprintName = "Huawei Signal Monitor"
-               ReferencedContainer = "container:Huawei Signal Monitor.xcodeproj">
+               BuildableName = "HuaweiSignalMonitor.app"
+               BlueprintName = "HuaweiSignalMonitor"
+               ReferencedContainer = "container:HuaweiSignalMonitor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "235F21E819B5F7BD00E25668"
-               BuildableName = "Huawei Signal MonitorTests.xctest"
-               BlueprintName = "Huawei Signal MonitorTests"
-               ReferencedContainer = "container:Huawei Signal Monitor.xcodeproj">
+               BuildableName = "HuaweiSignalMonitorTests.xctest"
+               BlueprintName = "HuaweiSignalMonitorTests"
+               ReferencedContainer = "container:HuaweiSignalMonitor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "235F21C719B5F7BD00E25668"
-            BuildableName = "Huawei Signal Monitor.app"
-            BlueprintName = "Huawei Signal Monitor"
-            ReferencedContainer = "container:Huawei Signal Monitor.xcodeproj">
+            BuildableName = "HuaweiSignalMonitor.app"
+            BlueprintName = "HuaweiSignalMonitor"
+            ReferencedContainer = "container:HuaweiSignalMonitor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "235F21C719B5F7BD00E25668"
-            BuildableName = "Huawei Signal Monitor.app"
-            BlueprintName = "Huawei Signal Monitor"
-            ReferencedContainer = "container:Huawei Signal Monitor.xcodeproj">
+            BuildableName = "HuaweiSignalMonitor.app"
+            BlueprintName = "HuaweiSignalMonitor"
+            ReferencedContainer = "container:HuaweiSignalMonitor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "235F21C719B5F7BD00E25668"
-            BuildableName = "Huawei Signal Monitor.app"
-            BlueprintName = "Huawei Signal Monitor"
-            ReferencedContainer = "container:Huawei Signal Monitor.xcodeproj">
+            BuildableName = "HuaweiSignalMonitor.app"
+            BlueprintName = "HuaweiSignalMonitor"
+            ReferencedContainer = "container:HuaweiSignalMonitor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
