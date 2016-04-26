@@ -229,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = hsm;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
 					235F21E819B5F7BD00E25668 = {
@@ -351,6 +351,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -366,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -399,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -422,6 +423,7 @@
 				INFOPLIST_FILE = "Huawei Signal Monitor/HuaweiSignalMonitor-Info.plist";
 				OTHER_CFLAGS = "-fno-objc-arc";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "bodhi.io.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HuaweiSignalMonitor;
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,6 +447,7 @@
 				INFOPLIST_FILE = "Huawei Signal Monitor/HuaweiSignalMonitor-Info.plist";
 				OTHER_CFLAGS = "-fno-objc-arc";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "bodhi.io.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HuaweiSignalMonitor;
 				WRAPPER_EXTENSION = app;
 			};

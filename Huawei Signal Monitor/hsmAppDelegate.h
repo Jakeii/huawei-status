@@ -13,6 +13,7 @@
     IBOutlet NSMenu *statusMenu;
     NSStatusItem * statusItem;
     IBOutlet NSMenuItem *openPageMenuItem;
+    IBOutlet NSMenuItem *rebootMenuItem;
     IBOutlet NSMenuItem *quitMenuItem;
     IBOutlet NSMenuItem *signalStrengthMenuItem;
     IBOutlet NSMenuItem *wanIpMenuItem;
